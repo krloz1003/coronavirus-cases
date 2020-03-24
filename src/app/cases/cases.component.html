@@ -1,0 +1,11 @@
+<div class="example-container mat-elevation-z8 ">
+    <h2>Corona virus Cases List </h2>
+    <div class="example-loading-shade"
+        *ngIf="isLoadingResults" >
+        <mat-spinner *ngIf="isLoadingResults"></mat-spinner>
+    </div>
+    <div class="buttom-row">
+        <a mat-flat-button color="primary" [routerLink]="" ><mat-icon>add</mat-icon> Cases</a>
+        <a mat-flat-button color="accent" [routerLink]="" ><mat-icon>bar_chart</mat-icon> Statistic</a>
+    </div>
+</div>
